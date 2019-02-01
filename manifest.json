@@ -38,6 +38,6 @@
     "content_scripts": [ {
         "js": [ "inject/jquery.js", "inject/batbook.js" ],
         "css": [ "inject/batbook.css" ],
-        "matches": [ "https://staging-app.vindi.com.br/*" ]
+        "matches": [ "https://staging-app.vindi.com.br/*", "http://app.vindi.local:3000/*", "https://app.vindi.com.br/*" ]
     } ]
 }
